@@ -140,3 +140,140 @@ console.log(pushed);
 let character = "Hello";
 let count = 8;
 let rows = [];
+
+//Exercício 31
+const character = "Hello";
+const count = 8;
+const rows = [];
+
+//Exercício 32
+const character = "#";
+const count = 8;
+const rows = [];
+
+//Exercício 33
+for ("iterator"; "condition"; "iteration") {}
+
+//Exercício 34
+for (let i = 0; "condition"; "iteration") {}
+
+//Exercício 35
+for (let i = 0; i < count; "iteration") {}
+
+//Exercício 36
+for (let i = 0; i < count; i = i + 1) {}
+
+//Exercício 37
+for (let i = 0; i < count; i = i + 1) {
+  console.log(i);
+}
+
+//Exercício 38
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(i);
+}
+
+//Exercício 39
+let result = "";
+
+//Exercício 40
+console.log(result);
+
+//Exercício 41
+for (const row of rows) {
+}
+
+//Exercício 42
+for (const row of rows) {
+  result = row + result;
+}
+
+//Exercício 43
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+//Exercício 44
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character);
+}
+
+//Exercício 45
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character);
+  character.repeat(i);
+}
+
+//Exercício 46
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1));
+}
+
+//Exercício 47
+function padRow() {}
+
+//Exercício 48
+function padRow() {}
+padRow();
+
+//Exercício 49
+const call = padRow();
+
+//Exercício 50
+function padRow() {}
+const call = padRow();
+console.log(call);
+
+//Exercício 51
+function padRow() {
+  return "Hello!";
+}
+
+//Exercício 52
+function padRow(name) {
+  return "Hello!";
+}
+
+//Exercício 53
+function padRow(name) {
+  return name;
+}
+
+//Exercício 54
+const call = padRow();
+padRow("name");
+
+//Exercício 55
+function addTwoNumbers(a, b) {
+  return a + b;
+}
+const sum = addTwoNumbers(5, 10);
+console.log(sum);
+
+//Exercício 56 - remove your addTwoNumbers function, sum variable, and log statement.
+
+//Exercício 57
+function padRow(name) {
+  return character + name;
+}
+
+//Exercício 58
+function padRow(name) {
+  const test = "Testing";
+  return character + name;
+}
+
+//Exercício 59
+function padRow(name) {
+  const test = "Testing";
+  return test;
+}
+console.log();
+
+//Exercício 60
+function padRow(name) {
+  const test = "Testing";
+  console.log("This works!");
+  return test;
+  console.log("This works!");
+}
